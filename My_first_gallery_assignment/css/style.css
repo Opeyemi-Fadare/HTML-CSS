@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.flex{
+    display: flex;
+}
+.w-100{
+    width: 100%;
+}
+.container{
+ background-image: url(../gallery_assets/1.jpg);
+ min-height: 300px;
+ background-attachment: fixed;
+ background-size: cover;
+ margin: 0;
+ padding: 0;
+ position: relative;
+}
+.head{
+    display: flex;
+}
+.head button{
+    background-color: rgb(221, 103, 123);
+    position: absolute;
+    right: 0;
+    width: 9rem;
+    color: white;
+    font-weight: 600;
+    border-radius: 25px;
+    padding: 5px 15px;
+    margin-right: 40px;
+    margin-top: 20px;
+    border: none;
+}
+.head button:hover{
+    cursor: pointer;
+}
+.logo{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size:20px;
+}
+.center{
+    text-align: center!important;
+}
+.text-mar{
+    margin-top: 4em;
+    width: 100%;
+}
+.main-text{
+    margin-bottom: 10px;
+    margin-right: 20px;
+    font-size: 40px;
+    font-weight: 800;
+    color: black;
+}
+.sub-text{
+    font-weight: 500;
+    width: 100%;
+}
+
+.down-button button{
+    background-color: rgb(55, 141, 233);
+    border-radius: 20px;
+    padding: 15px 20px;
+    margin-right: 40px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    color: white;
+    border: none;
+    width: 11rem;
+    font-weight: 600;
+}
+.down-button button{
+    cursor: pointer;
+}
+.down-button button:hover{
+    background-color: rgb(24, 62, 103);
+}
+.container1{
+ width: 100%;
+}
+.content-head{
+    font-size: 40px;
+    font-weight: 800;
+}
+.m-t-2{
+    margin-top: 20px;
+}
+.links{
+    display: inline-block;
+}
+.links ul{
+    margin: auto;
+}
+.links ul a{
+    list-style: none;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+}
+.links ul .uno{
+    color: white;
+    background-color: rgb(100, 193, 230);
+    border: none;
+}
+.links ul .left-20{
+    color: rgb(100, 193, 230) !important;
+    margin-left: 2rem;
+    background-color: white;
+    border: 1px solid rgb(100, 193, 230);
+}
+.links ul .left-20:hover{
+    color: white!important;
+    background-color: rgb(100, 193, 230);
+}
+.img-holder{
+    margin: 30px auto !important;
+    max-width: fit-content;
+}
+.img-v{
+    width: fit-content;
+}
+.img-item{
+    height: 150px;
+    width: 200px;
+    margin-left: 20px;
+    display: inline-block;
+}
